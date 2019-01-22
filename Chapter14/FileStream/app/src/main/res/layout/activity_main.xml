@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+    <TextView
+            android:id="@+id/textview_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存数据"/>
+    <Button
+            android:id="@+id/button_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="读取数据"/>
+    <Button
+            android:id="@+id/button_save_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存图像到SD卡"/>
+    <Button
+            android:id="@+id/button_load_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="从SD卡装载图像"/>
+    <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+</LinearLayout>
